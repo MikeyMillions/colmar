@@ -210,3 +210,80 @@
 .course:hover {
   background-color: lightblue;
 }
+
+/*end courses list*/
+
+/*begin thesis section*/
+
+#thesis-exhibit {
+  border-bottom: 1px solid rgba(60, 60, 60, .3);
+}
+
+#thesis-exhibit h1 {
+  text-align: center;
+  margin: 32px 0;
+}
+
+#thesis-left-column {
+  width: 60%;
+  height: auto;
+  margin: 0 24px 24px 24px;
+}
+
+#thesis-left-column video {
+  width: 100%;
+}
+
+#thesis-left-column p {
+  line-height: 1.5rem;
+  padding-top: 8px;
+}
+
+#thesis-left-column h2 {
+  margin-top: 24px;
+}
+
+#thesis-right-column {
+  width: 40%;
+  height: auto;
+}
+
+.thesis p {
+  font-size: .7rem;
+}
+
+.thesis img {
+  width: 35%;
+  height: auto;
+  float: left;
+  padding: 16px;
+}
+
+.thesis {
+  border: 4px solid rgba(60, 60, 60, .1);
+  margin: 0 10px 10px 10px;
+}
+
+.thesis:hover {
+  background-color: rgba(60, 60, 60, .1);
+}
+
+/*end thesis section*/
+
+/*begin footer*/
+
+#footer {
+  justify-content: space-between;
+  color: gray;
+  font-size: .7rem;
+}
+
+#links {
+  display: flex;
+}
+
+#links a {
+  text-decoration: none;
+}
+
+/*end footer*/
