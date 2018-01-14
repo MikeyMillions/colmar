@@ -1,7 +1,7 @@
 /*universals*/
 
 * {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -106,8 +106,18 @@
 .middle-banner-left img {
   width: 100%;
   height: auto;
+  border: 4px solid rgba(60, 60, 60, .1);
 }
 
+#credit {
+  font-size: .7rem;
+  color: black;
+}
+
+.middle-banner-left h1 {
+  font-weight: bolder;
+  color: rgba(60, 60, 60, .95);
+}
 .middle-banner-right {
   width: 40%;
   height: auto;
@@ -120,8 +130,24 @@
   height: auto;
   max-width: 35%;
   padding-right: 1rem;
+  padding: 10px;
+}
+
+.tour p {
+  font-size: .7rem;
+}
+
+.tour a {
+  text-decoration: none;
+  color: rgb(86, 142, 239);
+  font-size: 1rem;
 }
 
 .tour {
-  margin-bottom: 1rem;
+  margin-bottom: .3rem;
+  border: 4px solid rgba(60, 60, 60, .1);
+}
+
+.tour:hover {
+  background-color: rgba(60, 60, 60, .2);
 }
