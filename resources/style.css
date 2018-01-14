@@ -62,13 +62,16 @@
 
 .column {
   flex-direction: column;
+}
+
+.column-main {
   justify-content: center;
   align-items: left;
   width: 40%;
   padding-right: 2em;
 }
 
-.column h1 {
+.column-main h1 {
   color: rgba(60, 60, 60, .8);
   font-size: 2.5em;
   font-weight: bold;
@@ -89,3 +92,7 @@
   background-color: rgba(60, 60, 60, .8);
   padding: 8px 1rem;
 }
+
+/*end main banner*/
+
+/*begin middle banner*/
