@@ -1,0 +1,91 @@
+/*universals*/
+
+* {
+  font-family: "Oxygen", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: auto;
+}
+
+.gray-background {
+  background-color: #D8D8D8;
+}
+
+/* begin nav area */
+
+#header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  margin: 0 24px;
+}
+
+.nav-item {
+  list-style: none;
+  display: inline;
+  padding: 0 8px;
+}
+
+.nav-item a {
+  color: gray;
+  text-decoration: none;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo-letters {
+  font-weight: bold;
+  height: auto;
+}
+
+.gray {
+  color: gray;
+  font-weight: normal;
+}
+
+/*end nav area*/
+
+/*begin main banner*/
+
+.large-image img {
+  width: 60%;
+  height: auto;
+  padding: 32px 24px;
+  object-fit: contain;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 40%;
+  padding-right: 2em;
+}
+
+.column h1 {
+  color: rgba(60, 60, 60, .8);
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.column p {
+  color: rgba(60, 60, 60, .8);
+  font-size: 1.2em;
+}
+
+.button {
+  width: 80%;
+  text-align: center;
+}
+
+.button p {
+  color: white;
+  background-color: rgba(60, 60, 60, .8);
+  padding: 8px 1rem;
+}
