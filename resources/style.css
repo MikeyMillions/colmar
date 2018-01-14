@@ -61,6 +61,7 @@
 }
 
 .column {
+  display: flex;
   flex-direction: column;
 }
 
@@ -96,3 +97,31 @@
 /*end main banner*/
 
 /*begin middle banner*/
+
+.middle-banner-left {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.middle-banner-left img {
+  width: 100%;
+  height: auto;
+}
+
+.middle-banner-right {
+  width: 40%;
+  height: auto;
+  padding-right: 1rem;
+  padding-top: 32px;
+}
+
+.tour img {
+  float: left;
+  height: auto;
+  max-width: 35%;
+  padding-right: 1rem;
+}
+
+.tour {
+  margin-bottom: 1rem;
+}
