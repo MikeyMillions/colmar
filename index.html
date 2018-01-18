@@ -1,5 +1,6 @@
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="/resources/reset.css">
   <link href="./resources/style.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
@@ -8,11 +9,11 @@
 
 <body>
 
-  <div id="header">
+  <header>
     <nav>
       <div id="logo">
         <img src="./resources/ic-logo.svg" id="logo-picture">
-        <p id="logo-letters">COLMAR<span class="gray">ACADEMY</span></p>
+        <p id="logo-letters">COLMAR<span class="logo-text">ACADEMY</span></p>
       </div><!--/logo-->
       <ul>
         <li class="nav-item"><a href="#">On Campus</a></li>
@@ -20,8 +21,12 @@
         <li class="nav-item"><a href="#">For Companies</a></li>
         <li class="nav-item"><a href="#">Sign in</a></li>
       </ul>
+      <img class="nav-icon" src="./resources/ic-logo.svg">
+      <img class="nav-icon" src="./resources/ic-on-campus.svg">
+      <img class="nav-icon" src="./resources/ic-online.svg">
+      <img class="nav-icon" src="./resources/ic-login.svg">
     </nav>
-  </div><!--/header-->
+  </header><!--/header-->
 
   <div id="main-banner">
     <div class="container gray-background">
@@ -32,7 +37,7 @@
         <h1>Learn something <br /> new every day</h1>
         <p>Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.</p>
         <div class="button">
-          <p>Start Here</p>
+          <p><a href="#">Start Here</p></a>
         </div><!--/button-->
       </div><!--/container column-->
     </div><!--/container-->
@@ -49,19 +54,22 @@
       </div><!--/middle-banner-left-->
       <div class="column middle-banner-right">
         <div class="tour">
-          <img src="./resources/information-orientation.jpg">
+          <img class="tour-desktop" src="./resources/information-orientation.jpg">
+          <img class="tour-mobile" src="./resources/information-orientation-mobile.jpg">
           <h3>Orientation Date</h3>
-          <p>Tue 10/11 & Wed 10/12: 8am - 3pm</p>
+          <p>Tue 10/11 &amp; Wed 10/12: 8am - 3pm</p>
           <p><a href="#">Read More</a></p>
         </div><!--/tour-->
         <div class="tour">
-          <img src="./resources/information-campus.jpg">
+          <img class="tour-desktop" src="./resources/information-campus.jpg">
+          <img class="tour-mobile" src="./resources/information-campus-mobile.jpg">
           <h3>Our Campus</h3>
           <p>Find which campus is close by you</p>
           <p><a href="#">Read More</a></p>
         </div><!--/tour-->
         <div class="tour">
-          <img src="./resources/information-guest-lecture.jpg">
+          <img class="tour-desktop" src="./resources/information-guest-lecture.jpg">
+          <img class="tour-mobile" src="./resources/information-guest-lecture-mobile.jpg">
           <h3>Our Guest Lecture</h3>
           <p>Join a keynote with Oliver Sack about music in medical treatment </p>
           <p><a href="#">Read More</a></p>
@@ -77,37 +85,37 @@
         <img src="./resources/course-software.jpg">
         <h1>Software Engineering</h1>
         <p>COURSES</p>
-        <p>sdfgsdfsf</p>
+        <p>Web Development- Mobile <br /> Development, iOT, APIs</p>
       </div><!--/course-->
       <div class="course column">
         <img src="./resources/course-computer-art.jpg">
         <h1>Computer Art</h1>
         <p>COURSES</p>
-        <p>sdfgsdfsf</p>
+        <p>Imaging and Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
       </div><!--/course-->
       <div class="course column">
           <img src="./resources/course-design.jpg">
           <h1>Design</h1>
           <p>COURSES</p>
-          <p>sdfgsdfsf</p>
+          <p>User Experience Design, User Research, Visual Design</p>
       </div><!--/course-->
       <div class="course column">
         <img src="./resources/course-data.jpg">
         <h1>Data</h1>
         <p>COURSES</p>
-        <p>sdfgsdfsf</p>
+        <p>Data Science, Big Data, SQL, Data Visualization</p>
       </div><!--/course-->
       <div class="course column">
         <img src="./resources/course-business.jpg">
         <h1>Business</h1>
         <p>COURSES</p>
-        <p>sdfgsdfsf</p>
+        <p>Product Development, Business Development, Startup</p>
       </div><!--/course-->
       <div class="course column">
         <img src="./resources/course-marketing.jpg">
         <h1>Marketing</h1>
         <p>COURSES</p>
-        <p>sdfgsdfsf</p>
+        <p>Analytics, Content Marketing, Mobile Marketing</p>
       </div><!--/course-->
     </div><!--/course-list-->
   </div><!--/curriculum-->
